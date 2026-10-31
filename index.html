@@ -7,7 +7,32 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        
+        <header>
+
+        </header>
+        <main>
+            <div id="startScreen">
+                <h1>QuizMaster</h1>
+                <h2>Test Your Knowledge</h2>
+                <p>Answer questions and see how much you know!</p>
+                <button id="startButton">Start Quiz</button>
+            </div>
+            <div id="quizScreen" hidden>
+                <p id="questionNumber">Question 1 of 5</p>
+                <div class="progressContainer">
+                    <div id="progressBar"></div>
+                </div>
+                <h2 id="questionText">Question goes Here</h2>
+                <div id="answerOptions"></div>
+                <button id="nextButton">Next Question</button>
+            </div>
+            <div id="resultScreen" hidden>
+                <h2>Quiz Completed!</h2>
+                <p>Here is how you did</p>
+                <h1 id="finalScore">0/5</h1>
+                <button id="restartButton">Try Again</button>
+            </div>
+        </main>
 
 
 
